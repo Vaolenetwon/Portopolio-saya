@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shadown Town</title>
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link ke file CSS lo sendiri -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MyApp</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End <--</-->
+
+   <!-- Hero Section Start -->
+<section id="hero" class="hero-section text-white text-center d-flex align-items-center justify-content-center">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Halo, Saya Programmer Pemula</h1>
+    <p class="lead mt-3">Saya sedang belajar menjadi seorang ahli programmer. Fokus ke JavaScript, dan sedang bangun portfolio dari nol.</p>
+    <a href="#portfolio" class="btn btn-primary mt-4">Lihat Proyek Saya</a>
+  </div>
+</section>
+<!-- Hero Section End <-->
+
+<!-- About Section Start -->
+<section id="about" class="about-section py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4">Tentang Saya</h2>
+    <p class="lead">
+      Saya seorang programmer pemula. Setidaknya saya sudah sedikit menyelam di dunia JavaScript. 
+      Walaupun saya masih kurang ahli dalam hal styling, saya akan berusaha semaksimal mungkin 
+      jika Anda berkenan menggunakan jasa saya.
+    </p>
+  </div>
+</section>
+<!-- About Section End <-->
+
+<!-- Services Section Start -->
+<section id="services" class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">Kemampuan Saya</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">JavaScript</h5>
+            <p class="card-text">
+              Saya mulai memahami dasar-dasar JavaScript seperti variable, function, dan DOM. 
+              Saat ini saya fokus memperdalam skill ini untuk pengembangan web interaktif.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">HTML & CSS</h5>
+            <p class="card-text">
+              Saya sudah menguasai struktur dasar HTML dan sedang memperbaiki kemampuan styling saya dengan CSS. 
+              Saya belajar dengan konsisten dan semangat.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Semangat Belajar</h5>
+            <p class="card-text">
+              Meskipun saya belum mahir, saya memiliki tekad dan komitmen kuat untuk terus belajar dan berkembang di dunia pemrograman.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Services Section End -->
+
+<!-- Portfolio Section Start -->
+<section id="portfolio" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4">Portfolio Saya</h2>
+    <div class="row g-4">
+      
+      <!-- Project 1 -->
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Website HTML Sederhana</h5>
+            <p class="card-text">
+              Proyek pertama saya berupa halaman web sederhana menggunakan HTML dan sedikit CSS. 
+              Ini jadi pijakan awal saya dalam dunia web development.
+            </p>
+            <a href="#" class="btn btn-primary disabled">Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Kalkulator JavaScript</h5>
+            <p class="card-text">
+              Saya mencoba membangun kalkulator sederhana menggunakan JavaScript untuk belajar logika dan DOM.
+            </p>
+            <a href="#" class="btn btn-primary disabled">Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Portfolio Section End -->
+
+
+<!-- Footer Start -->
+<footer class="bg-dark text-white py-4 mt-5">
+  <div class="container text-center">
+    <p class="mb-1">&copy; 2025 MyApp. All rights reserved.</p>
+    <div class="d-flex justify-content-center gap-3">
+      <a href="#" class="text-white text-decoration-none">Privacy Policy</a>
+      <a href="#" class="text-white text-decoration-none">Terms</a>
+      <a href="#" class="text-white text-decoration-none">Contact</a>
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
+
+
+    <!-- Bootstrap JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    ></script>
+  </body>
+</html>

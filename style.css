@@ -1,0 +1,71 @@
+/* Gaya tambahan untuk navbar */
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #00ff99 !important;
+}
+
+footer a:hover {
+  color: #00ff99;
+  text-decoration: underline;
+}
+
+.hero-section {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80') no-repeat center center;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.about-section {
+  padding: 4rem 1rem;
+}
+
+.about-section h2 {
+  font-weight: bold;
+}
+
+.about-section p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+#services h2 {
+  font-weight: bold;
+}
+
+.card-title {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+/* ====== PORTFOLIO SECTION STYLING ====== */
+#portfolio h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+#portfolio .card-title {
+  color: #007bff;
+  font-weight: 600;
+}
+
+#portfolio .card-text {
+  font-size: 1rem;
+  line-height: 1.6;
+}
